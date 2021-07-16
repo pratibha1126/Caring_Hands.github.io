@@ -1,0 +1,174 @@
+*{
+  margin: 0;
+  padding: 0;
+  font-family: sans-serif;
+}
+/******top Navbar***********************/
+.topnav {
+  background-color: #333;
+  overflow: hidden;
+}
+.Name{
+  padding-left: 60px;
+  font-size: 17px;
+  color: #48D1CC;
+  padding-top: 16px;
+  font-weight: bold;
+}
+.topnav a {
+  float: right;
+  color: #f2f2f2;
+  text-align: center;
+  padding: 15px 13px;
+  text-decoration: none;
+  font-size: 18px;
+}
+.topnav a:hover {
+  background-color: #ddd;
+  color: black;
+}
+.topnav a.active {
+  background-color: #04AA6D;
+  color: white;
+}
+/************home page******************/
+.container{
+  position: absolute;
+  height: 90vh;
+  width: 100%;
+  background-color: black;
+}
+.container img {
+  height: 90vh;
+  width: 100%;
+  opacity: 0.2;
+}
+.centered{
+  position: absolute;
+  top: 40%;
+  left: 50%;
+  transform: translate(-50%,-50%);
+
+}
+.centered h1{
+  text-align: center;
+  padding-top: 60px;
+  color: #66e0ff;
+  text-transform: uppercase;
+  text-shadow: 2px 2px 2px grey;
+}
+.centered h3{
+  font-family: initial;
+  text-align: center;
+  padding-top: 50px;
+  color: white;
+}
+.centered h4{
+  padding-top: 10px;
+  font-family: cursive;
+  text-align: center;
+  color: grey;
+}
+form{
+  padding-top: 50px;
+  text-align: center;
+}
+/*****************about page******************/
+.container1{
+  background-color: #48D1CC;
+  padding-top: 720px;
+}
+.container1 h1{
+  text-align: center;
+  font-weight: bold;
+}
+.content{
+  padding-bottom: 70px;
+  padding-top: 60px;
+}
+.content h3{
+  padding-left: 50px;
+  padding-right: 50px;
+  font-family: initial;
+  padding-top: 20px;
+}
+.image-section{
+  text-align: center;
+}
+/***********donation section****************/
+.content2{
+  background-color: #20B2AA;
+  text-align: center;
+  padding-top: 60px;
+  padding-bottom: 60px;
+}
+.content2 h1{
+  padding-bottom: 50px;
+  font-weight: bold;
+}
+.content2 p{
+  text-align: left;
+  font-size: 24px;
+  padding-left: 50px;
+  padding-right: 50px;
+  font-family: initial;
+  font-weight: bold;
+}
+.content2 h2{
+  padding-top: 40px;
+  color: darkblue;
+}
+.content2 H4{
+  font-family: cursive;
+}
+/*************contact page****************/
+.container2{
+  background-color: #48D1CC;
+}
+.container2 h1{
+  text-align: center;
+  font-weight: bold;
+  padding-top: 50px;
+}
+.contact-form{
+  max-width: 600px;
+  margin: auto;
+  padding: 0 10px;
+  overflow: hidden;
+  padding-bottom: 70px;
+}
+.contact-form-text{
+  display: block;
+  width: 100%;
+  box-sizing: border-box;
+  margin: 16px 0;
+  border: 0;
+  background: powderblue;
+  padding: 20px 40px;
+  color: white;
+  outline: 0;
+  transition: 0.5s;
+}
+.contact-form-text:focus{
+  box-shadow: 0 0 10px 4px #34495e;
+
+}
+textarea .contact-form-text{
+  resize: none;
+  height: 120px;
+}
+.contact-form-btn{
+  float: right;
+  border: 0;
+  background: darkblue;
+  color: white;
+  padding: 12px 50px;
+  border-radius: 20px;
+  cursor: pointer;
+  transition: 0.5s;
+}
+.contact-form-btn:hover{
+  background: olive;
+}
+
+/************************make responsive***************/
